@@ -1,1 +1,50 @@
 /* Media queries go here */
+@media screen and (max-width: 700px) {
+
+header .title {
+  width: 100%;
+}
+
+header .contact {
+  width: 100%;
+  padding-top: 5%;
+}
+
+main .about {
+  width: 100%;
+}
+
+main .skills {
+  width: 100%;
+  padding-top: 10%;
+}
+
+main ul.work li {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 500px) {
+
+header .title {
+  width: 100%;
+}
+
+header .contact {
+  width: 100%;
+  padding-top: 5%;
+}
+
+main .about {
+  width: 100%;
+}
+
+main .skills {
+  width: 100%;
+  padding-top: 10%;
+}
+
+main ul.work li {
+  width: 100%;
+}
+}
