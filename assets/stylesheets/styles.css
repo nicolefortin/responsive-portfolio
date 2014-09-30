@@ -1,0 +1,93 @@
+body {
+	font-family: Karla, sans-serif;
+}
+
+.container {
+	font-size: 100%;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* ===== HEADER ===== */
+
+header {
+	padding: 60px 90px;
+	overflow: auto;
+}
+
+header hgroup {
+	width: 705px;
+	margin-right: 60px;
+	float: left;
+}
+
+header hgroup h1 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+
+header hgroup h2 {
+	font-size: 1.5em;
+	color: #999;
+}
+
+header .contact {
+	width: 255px;
+	float: right;
+	line-height: 1.5em;
+	color: #999;
+}
+
+/* ===== MAIN ===== */
+
+main {
+	background: #000;
+	color: #fff;
+	padding: 90px;
+	overflow: auto;
+}
+
+main .about {
+	width: 705px;
+	margin-right: 60px;
+	float: left;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: #ccc;
+}
+
+main .skills {
+	width: 255px;
+	float: right;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: #666;
+	line-height: 1.5em;
+}
+
+main ul.work {
+	clear: both;
+	padding-top: 90px;
+}
+
+main ul.work li {
+	float: left;
+	width: 480px;
+	margin-bottom: 60px;
+}
+
+/* add margin to every other image */
+main ul.work li:nth-child(2n-1) {
+	margin-right: 60px; 
+}
+
+main ul.work li img {
+	width: 100%;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+	padding: 60px 90px;
+	color: #999;
+}
